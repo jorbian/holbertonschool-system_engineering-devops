@@ -13,7 +13,7 @@ from pathlib import Path
 input_file = "/root/holbertonschool-system_engineering-devops/0x00-shell_basics.csv"
 first_line = "#!/bin/bash\n"
 readme= "README.md exists and is not empty"
-permissions = "u+x"
+permissions = "777"
 
 output_folder_name = Path(input_file).stem
 Path(output_folder_name).mkdir(parents=True, exist_ok=True)
