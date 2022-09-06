@@ -1,3 +1,2 @@
 #!/bin/bash
 printf '\x28\xc3\x94\x6f\x29\x0A'
-
