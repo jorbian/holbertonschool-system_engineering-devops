@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 3 == 0' iacta
+awk 'FNR == 3' iacta
