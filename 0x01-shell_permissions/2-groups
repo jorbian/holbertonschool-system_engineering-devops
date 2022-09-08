@@ -1,2 +1,2 @@
 #!/bin/bash
-python -c "print('root\n')"
+echo $(python -c "print('root\n')")
