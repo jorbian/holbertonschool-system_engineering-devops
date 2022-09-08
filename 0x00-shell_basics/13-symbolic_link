@@ -1,3 +1,2 @@
 #!/bin/bash
-echo 'i dont know yet'
-
+ln -s /bin/ls __ls__
