@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '$0 !~ /bin/' /etc/passwd
+grep -e "root" -A 3 /etc/passwd

@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -mmin -60 -exec stat -c $'%Y\t%n' {} + | sort -nr | cut -f2-
+ls -t1 | head -n 10
