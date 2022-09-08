@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a=r,u=rwx $(pwd)
+chmod 751 $(pwd)
