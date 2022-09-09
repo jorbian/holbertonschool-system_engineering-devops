@@ -1,3 +1,2 @@
 #!/bin/bash
-alias an_alais="rm *"
-
+alias lt='ls --human-readable --size -1 -S --classify'
