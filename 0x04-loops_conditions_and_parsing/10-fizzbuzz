@@ -3,16 +3,16 @@
 
 for i in {1..100}; do
     
-    if ( (( $i % 3 == 0 )) || (( $i % 5 == 0 )) ); then
-        if (( $i % 3 == 0 )); then
+    if ( (( i % 3 == 0 )) || (( i % 5 == 0 )) ); then
+        if (( i % 3 == 0 )); then
             printf "fizz"
         fi 
 
-        if (( $i % 5 == 0 )); then
+        if (( i % 5 == 0 )); then
             printf "buzz" 
         fi 
     else 
-        printf $i
+        printf i
     fi 
 
     printf "\x0A"
