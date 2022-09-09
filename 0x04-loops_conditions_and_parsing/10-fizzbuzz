@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#We're finally getting into some coding. A quick version I'm not exactly proud of...
 
 for i in {1..100}; do
     
