@@ -3,17 +3,20 @@
 
 counter=0
 
-while [[ counter -le 20 ]]
-do
-    if [[ counter -eq 17 ]]; then 
-        echo "bad luck from Italy"
-    elif [[ counter -eq 9 ]]; then 
-        echo "bad luck from Japan"
-    elif [[ counter -eq 4 ]]; then 
-        echo "bad luck from China"
-    else 
-        echo $counter
-    fi 
-
+while [[ counter -le 20 ]]; do
+    case $counter in
+        17)
+        printf "bad luck from Italy\n"
+        ;;
+        9)
+        printf "bad luck from Japan\n"
+        ;;
+        4)
+        printf "bad luck from China\n"
+        ;;
+        *)
+        printf "%s\n" "$counter"
+        ;;
+    esac
     ((counter++))
 done 

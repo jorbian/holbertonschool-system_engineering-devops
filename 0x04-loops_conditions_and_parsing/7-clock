@@ -4,7 +4,7 @@
 hour=0
 min=1
 
-while [[ hour -lt 12 ]]; do
+while [[ hour -le 12 ]]; do
 
     printf "Hour: %s\n" "$hour"
 
