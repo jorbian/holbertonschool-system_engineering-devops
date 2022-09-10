@@ -12,7 +12,7 @@ do
     elif [[ counter -eq 4 ]]; then 
         echo "bad luck from China"
     else 
-        echo counter
+        echo $counter
     fi 
 
     ((counter++))
