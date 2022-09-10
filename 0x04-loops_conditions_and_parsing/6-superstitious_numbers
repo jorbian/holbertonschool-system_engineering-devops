@@ -15,8 +15,10 @@ while [[ counter -le 20 ]]; do
         printf "bad luck from China\n"
         ;;
         *)
-        printf "%s\n" "$counter"
         ;;
     esac
+
+    printf "%s\n" "$counter"
+    
     ((counter++))
 done 
