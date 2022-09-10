@@ -1,2 +1,18 @@
 #!/usr/bin/env bash
-#
+# A script to do their silly littel clock thing,,,
+
+hour=0
+min=1
+
+while [[ hour -lt 12 ]]; do
+
+    echo "Hour: $hour"
+
+    while [[ min -lt 60 ]]; do
+        echo $min
+        ((min++))
+    done 
+
+    min=1
+    ((hour++))
+done 
