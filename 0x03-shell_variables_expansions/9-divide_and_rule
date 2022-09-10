@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(( $POWER / $DIVIDE ))\x0A\x0A"
+printf "$(( $POWER / $DIVIDE ))\x0A"

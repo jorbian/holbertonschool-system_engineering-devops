@@ -5,11 +5,11 @@ for i in {1..100}; do
     
     if ( (( i % 3 == 0 )) || (( i % 5 == 0 )) ); then
         if (( i % 3 == 0 )); then
-            printf "fizz"
+            printf "Fizz"
         fi 
 
         if (( i % 5 == 0 )); then
-            printf "buzz" 
+            printf "Buzz" 
         fi 
     else 
         printf $i
