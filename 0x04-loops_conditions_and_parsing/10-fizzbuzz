@@ -12,7 +12,7 @@ for i in {1..100}; do
             printf "Buzz" 
         fi 
     else 
-        printf $i
+        printf "%s" "$i"
     fi 
 
     printf "\x0A"
