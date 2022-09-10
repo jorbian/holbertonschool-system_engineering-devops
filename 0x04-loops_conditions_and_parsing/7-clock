@@ -6,10 +6,10 @@ min=1
 
 while [[ hour -lt 12 ]]; do
 
-    echo "Hour: $hour"
+    printf "Hour: %s\n" "$hour"
 
     while [[ min -lt 60 ]]; do
-        echo $min
+        printf "%s\n" "$min"
         ((min++))
     done 
 
