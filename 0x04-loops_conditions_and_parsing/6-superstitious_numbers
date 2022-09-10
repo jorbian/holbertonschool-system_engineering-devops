@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # yet andother tirival while loop with if statements and shit 
 
-counter=0
+counter=1
 
 while [[ counter -le 20 ]]; do
     case $counter in
@@ -13,8 +13,6 @@ while [[ counter -le 20 ]]; do
         ;;
         4)
         printf "bad luck from China\n"
-        ;;
-        *)
         ;;
     esac
 
