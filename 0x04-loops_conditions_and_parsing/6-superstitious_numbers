@@ -1,2 +1,19 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# yet andother tirival while loop with if statements and shit 
 
+counter=0
+
+while [[ counter -lt 20 ]]
+do
+    if [[ counter -eq 17 ]]; then 
+        echo "bad luck from Italy"
+    elif [[ counter -eq 9 ]]; then 
+        echo "bad luck from Japan"
+    elif [[ counter -eq 4 ]]; then 
+        echo "bad luck from China"
+    else 
+        echo counter
+    fi 
+
+    ((counter++))
+done 

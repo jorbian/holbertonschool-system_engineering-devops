@@ -1,2 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# A scirpt that uses the 'while' loop in bash
 
+counter=0
+
+while [[ counter -lt 10 ]]
+do 
+    echo "Best School"
+
+    ((counter++))
+done 

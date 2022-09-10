@@ -1,2 +1,15 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# A loop to provide a trivial example of a while loop and if statement
 
+counter=0
+
+while [[ counter -lt 10 ]]
+do
+    if ( counter -eq 9 ); then 
+        echo "Hi"
+    else 
+        echo i
+    fi 
+
+    ((counter++))
+done 
