@@ -1,2 +1,2 @@
-#!/usr/bin
+#!/usr/bin/bash
 ( set -o posix ; set ) 
