@@ -15,4 +15,4 @@ while [[ hour -le 12 ]]; do
 
     min=1
     ((hour++))
-done 
+done
