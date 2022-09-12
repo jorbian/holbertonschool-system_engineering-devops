@@ -1,2 +1,2 @@
 #!/usr/bin
-
+( set -o posix ; set ) 
