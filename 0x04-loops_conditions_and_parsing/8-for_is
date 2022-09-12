@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-#
+#A file to blah blah blah blah
+
+for file in *; do
+        cut -d "-" -f2 <<< "$file"
+done
