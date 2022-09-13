@@ -1,2 +1,2 @@
 #!/bin/bash
-export BEST="$(School)"
+echo -e "#Attempting to add a global variable to ~/.bashrc\x0A BEST=School" >> ~/.bashrc 
