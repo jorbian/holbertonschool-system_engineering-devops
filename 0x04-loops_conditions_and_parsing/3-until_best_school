@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 #a script that uses the until loop in bash
-
 counter=0
 until [[ counter -eq 10 ]]
 do 
-    echo "Beast School"
+    echo "Best School"
 
     ((counter++))
 done
