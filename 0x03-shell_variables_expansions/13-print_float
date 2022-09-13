@@ -1,3 +1,2 @@
 #!/bin/bash
-# Script to round up fload
 printf "%.2f\x0a" "$NUM"
