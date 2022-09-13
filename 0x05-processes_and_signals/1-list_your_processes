@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-# A scirpt that uses the for loop in bash
+# A script to list currently active processes in the shell
+ps 
+Two down six to go...
