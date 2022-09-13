@@ -1,2 +1,2 @@
 #!/bin/bash
-printf 'alias dir="ls"\x0a' >> ~/.bashrc
+alias dir=ls
