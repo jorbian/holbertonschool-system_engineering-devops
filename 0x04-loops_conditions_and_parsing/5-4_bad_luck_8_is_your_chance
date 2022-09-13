@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # another trivial example of while lop and if statement
 
-counter=0
+counter=1
 
 while [[ counter -le 10 ]]
 do
