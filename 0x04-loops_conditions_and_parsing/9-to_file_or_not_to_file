@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 # A scrip[t that checks if another file exists and is not empty
 
-if [[ -f school ]]; then
+if [ -r school ]; then
 
     echo "school file exists"
+
+    if [ ! -d school ]; then 
+        echo "school is a regular file"
+    fi 
 
     #See if the file has a length greater than zero 
     if [[ -s school ]]; then
