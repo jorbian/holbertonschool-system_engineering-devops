@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "#Attempting to add a global variable to ~/.bashrc\x0A BEST=School" >> ~/.bash_profile 
+export BEST=School
