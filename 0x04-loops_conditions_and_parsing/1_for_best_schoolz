@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Script to try out another way to do the 
+
+for _ in {1..10}; do
+    echo $_
+done
+
