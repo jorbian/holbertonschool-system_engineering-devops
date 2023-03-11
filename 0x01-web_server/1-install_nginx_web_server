@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
 # Me trying to get qute with this assignment
+
+echo $(perl -E "print '$0.py';")
