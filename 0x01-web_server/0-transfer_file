@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# ME TRYING TO GET CUTE WITH THE ASSIGNMENT
+python3 0-*.py $@
