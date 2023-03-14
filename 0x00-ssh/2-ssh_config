@@ -1,33 +1,7 @@
-debug1: match: OpenSSH_8.2p1 Ubuntu-4ubuntu0.5 pat OpenSSH* compat 0x04000000
-debug1: Authenticating to 15.188.79.244:22 as 'ubuntu'
-debug1: SSH2_MSG_KEXINIT sent
-debug1: SSH2_MSG_KEXINIT received
-debug1: kex: algorithm: curve25519-sha256
-debug1: kex: host key algorithm: ecdsa-sha2-nistp256
-debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
-debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
-debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
-debug1: Server host key: ecdsa-sha2-nistp256 SHA256:APTH15I/iPWHseMK18YM6XJ72ahRo9V2Xm+XHck/IXM
-debug1: Host '15.188.79.244' is known and matches the ECDSA host key.
-debug1: Found key in ~/.ssh/known_hosts:14
-debug1: rekey out after 134217728 blocks
-debug1: SSH2_MSG_NEWKEYS sent
-debug1: expecting SSH2_MSG_NEWKEYS
-debug1: SSH2_MSG_NEWKEYS received
-debug1: rekey in after 134217728 blocks
-debug1: Will attempt key: boller@2012-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
-debug1: Will attempt key: ~/.ssh/test_key_01 ED25519 SHA256:P/cBQZB8L6Dkbk74yygwOFhGVuW8qv9uTXrBaqYneBU explicit
-debug1: SSH2_MSG_EXT_INFO received
-debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,sk-ssh-ed25519@openssh.com,df2-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
-debug1: Server accepts key: boller@2012-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
-debug1: Authentication succeeded (publickey).
-Authenticated to 15.188.79.244 ([15.188.79.244]:22).
-debug1: channel 0: new [client-session]
-debug1: Requesting no-more-sessions@openssh.com
-debug1: Entering interactive session.
-debug1: pledge: network
-debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
-debug1: Remote: /home/ubuntu/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
-debug1: Remote: /home/ubuntu/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
-debug1: Sending environment.
-debug1: Sending env LANG = en_US.UTF-8
+Host 5533-web-01
+    Hostname 15.188.79.244
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication No
+    ChallengeResponseAuthentication No
+  
