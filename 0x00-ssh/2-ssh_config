@@ -2,6 +2,6 @@ Host 5533-web-01
     Hostname 15.188.79.244
     User ubuntu
     IdentityFile ~/.ssh/school
-    PasswordAuthentication No
-    ChallengeResponseAuthentication No
+    PasswordAuthentication no
+    ChallengeResponseAuthentication no
   
