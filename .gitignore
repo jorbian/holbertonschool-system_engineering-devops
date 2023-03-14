@@ -1,5 +1,0 @@
-.gitignore
-**/__pycache__
-**/*.pl
-**/*.sh
-**/.DS_Store
