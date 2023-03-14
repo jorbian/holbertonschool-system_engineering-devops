@@ -9,20 +9,16 @@ debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit
 debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
 debug1: Server host key: ecdsa-sha2-nistp256 SHA256:APTH15I/iPWHseMK18YM6XJ72ahRo9V2Xm+XHck/IXM
 debug1: Host '15.188.79.244' is known and matches the ECDSA host key.
-debug1: Found key in /Users/boller/.ssh/known_hosts:14
+debug1: Found key in ~/.ssh/known_hosts:14
 debug1: rekey out after 134217728 blocks
 debug1: SSH2_MSG_NEWKEYS sent
 debug1: expecting SSH2_MSG_NEWKEYS
 debug1: SSH2_MSG_NEWKEYS received
 debug1: rekey in after 134217728 blocks
 debug1: Will attempt key: boller@2012-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
-debug1: Will attempt key: /Users/boller/.ssh/test_key_01 ED25519 SHA256:P/cBQZB8L6Dkbk74yygwOFhGVuW8qv9uTXrBaqYneBU explicit
+debug1: Will attempt key: ~/.ssh/test_key_01 ED25519 SHA256:P/cBQZB8L6Dkbk74yygwOFhGVuW8qv9uTXrBaqYneBU explicit
 debug1: SSH2_MSG_EXT_INFO received
-debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com>
-debug1: SSH2_MSG_SERVICE_ACCEPT received
-debug1: Authentications that can continue: publickey
-debug1: Next authentication method: publickey
-debug1: Offering public key: boller@2012-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
+debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,sk-ssh-ed25519@openssh.com,df2-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
 debug1: Server accepts key: boller@2012-3218.local RSA SHA256:lpuASlEA6D4KOEQ4fvzGSGFnTyUJ/FCoEg1DVfFHi7s agent
 debug1: Authentication succeeded (publickey).
 Authenticated to 15.188.79.244 ([15.188.79.244]:22).
