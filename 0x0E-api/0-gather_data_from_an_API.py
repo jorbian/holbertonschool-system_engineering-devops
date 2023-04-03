@@ -1,13 +1,22 @@
-#!/usr/bin/env python3
-
+#!/usr/bin/python3
+"""RETURNS TODO LIST FOR GIVEN EMPLOEE."""
 import requests
 import sys
 
 if __name__ == "__main__":
+    
+    url = "https://jsonplaceholder.typicode.com/"
 
-    packet_URL = (
-        "https://jsonplaceholder.typicode.com/users/{}".format(sys.argv[1])
+    user = requests.get(url + "users/{}".format(sys.argv[1])).json()
+    todos = requests.get(url + "todos", params={"userId": sys.argv[1]}).json()
+
+    completed = [t.get("title") for t in todos if t.get("completed") is True]
+
+    print(
+        "Employee {} is done with tasks({}/{}):".format(
+            user.get("name"),
+            len(completed),
+            len(todos)
+        )
     )
-    data_packet = requests.get(packet_URL)
-
-    print(data_packet.text)
+    [print("\t {}".format(c)) for c in completed]
